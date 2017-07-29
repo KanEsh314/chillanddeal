@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/setting"
+            android:title="What you looking for?"/>
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback" />
+    </group>
+
+</menu>

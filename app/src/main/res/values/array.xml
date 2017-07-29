@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="my_cards">
+        <item>@mipmap/kfc</item>
+        <item>@mipmap/starbucks</item>
+        <item>@mipmap/pizza</item>
+    </array>
+
+    <array name="cdcards">
+        <item>@mipmap/kfc</item>
+        <item>@mipmap/starbucks</item>
+        <item>@mipmap/pizza</item>
+    </array>
+
+    <array name="cards">
+        <item>@drawable/rhb1</item>
+        <item>@drawable/rhb2</item>
+        <item>@drawable/rhb3</item>
+    </array>
+
+    <string-array name="mycard">
+        <item>RHB 1</item>
+        <item>RHB 2</item>
+        <item>RHB 3</item>
+    </string-array>
+
+    <string-array name="card_name">
+        <item>5% off</item>
+        <item>10% cashback</item>
+        <item>50% discount</item>
+    </string-array>
+
+    <string-array name="nearby_deals">
+        <item>5 minutes away</item>
+        <item>10 minutes away</item>
+        <item>7 minutes away</item>
+    </string-array>
+</resources>
