@@ -6,6 +6,9 @@
             android:id="@+id/my_profile"
             android:title="Profile" />
         <item
+            android:id="@+id/ewallet"
+            android:title="eWallet" />
+        <item
             android:id="@+id/setting"
             android:title="What you looking for?"/>
         <item

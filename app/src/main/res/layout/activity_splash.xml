@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.itrain.demohackathon.SplashActivity">
-    
-    <ImageView
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="259dp"
-        tools:layout_editor_absoluteX="168dp" />
-    
-    <TextView
-        android:text="Chill n Deal!"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/colorWhite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="327dp"
-        tools:layout_editor_absoluteX="114dp" />
+    tools:context="my.edu.itrain.example.heck.SplashScreen"
+    android:background="@color/colorWhite">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/icon"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity
         Adapter adapter = new Adapter(getSupportFragmentManager());
         adapter.addFragment(new MapFragment(), "Map");
         adapter.addFragment(new DealsFragment(), "Deals");
-        adapter.addFragment(new MyCardActivity(),"Wallet");
         viewPager.setAdapter(adapter);
     }
 
@@ -128,7 +127,10 @@ public class MainActivity extends AppCompatActivity
         if(id == R.id.my_profile){
             Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
             startActivity(intent);
-        } else if (id == R.id.about_us) {
+        } else if (id == R.id.ewallet) {
+            Intent intent = new Intent(MainActivity.this, WhatsActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.about_us) {
             Intent intent = new Intent(MainActivity.this, AboutUsActivity.class);
             startActivity(intent);
         }else if(id == R.id.settting){

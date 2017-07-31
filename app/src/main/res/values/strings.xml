@@ -20,5 +20,12 @@
         +601300229898
     </string>
 
+    <string-array name="card_arrays">
+        <item>Platinum</item>
+        <item>Gold</item>
+        <item>Silver</item>
+
+    </string-array>
+
 
 </resources>
